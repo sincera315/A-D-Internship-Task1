@@ -10,28 +10,28 @@ The primary objective of this project is to familiarize oneself with essential d
 ## Activities
 1. **Environment Setup**
    - Ensure Python and Jupyter Notebooks are installed.
-   - Install necessary libraries: pandas, matplotlib, seaborn.
+   - 
+2. **Install these Libraries**
+   ```sh
+   !pip install pandas
+   !pip install matplotlib.pyplot
+   !pip install seaborn
+   ```
 
 2. **Data Loading and Exploration**
    - Load the Iris dataset using pandas.
+   - Here is the link for iris dataset: (https://www.kaggle.com/datasets/uciml/iris)
    - Display initial rows of the dataset and check its structure using `info()` and `describe()`.
 
 3. **Descriptive Statistics**
-   - Utilize pandas functions (`describe()`, `value_counts()`) to gather key statistics about the dataset.
+   - It utilizes pandas functions like (`describe()`, `value_counts()`, `info()`,etc) to gather key statistics about the dataset.
    
 4. **Visualization**
-   - Create histograms for each numerical feature to understand their distributions.
-   - Use scatter plots to explore potential relationships between features.
-   - Employ Seaborn’s `pairplot` to visualize feature interactions with species differentiation.
+   - It has histograms for each numerical feature to understand their distributions.
+   - I have even used scatter plots to explore potential relationships between features.
+   - Seaborn’s `pairplot` has been used to visualize interactions of features with species differentiation.
 
-5. **Documentation**
-   - Document your findings, interpretations, and insights from the EDA process in a structured Jupyter notebook.
-   - Include clear labels, legends, and comments in your code for clarity and understanding.
 
 ## Expected Output
 - A well-structured Jupyter notebook that outlines data loading, exploration steps, descriptive statistics, visualizations with interpretations, and insights gained from the Iris dataset analysis.
 
-## Additional Notes
-- Comment your code thoroughly to explain each step and rationale.
-- Ensure consistent formatting with clear headings and subheadings in your Jupyter notebook.
-- Validate transformations and analyses at each stage to maintain accuracy and reliability.
