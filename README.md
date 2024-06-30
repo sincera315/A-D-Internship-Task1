@@ -10,13 +10,12 @@ The primary objective of this project is to familiarize oneself with essential d
 ## Activities
 1. **Environment Setup**
    - Ensure Python and Jupyter Notebooks are installed.
-   - 
-2. **Install these Libraries**
-   ```sh
-   !pip install pandas
-   !pip install matplotlib.pyplot
-   !pip install seaborn
-   ```
+   -  **Install these Libraries**
+      ```sh
+      !pip install pandas
+      !pip install matplotlib.pyplot
+      !pip install seaborn
+      ```
 
 2. **Data Loading and Exploration**
    - Load the Iris dataset using pandas.
